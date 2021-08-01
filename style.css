@@ -1,0 +1,180 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* First navbar */
+
+.logo {
+  position: absolute;
+  margin-top: 15px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+  position: fixed;
+  z-index: 200;
+  height: 50px;
+  width: auto;
+  background-color: #12191f;
+}
+
+.navbar1 {
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 30px;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  background-color: #12191f;
+}
+
+.ul1 {
+  padding: 0;
+  margin-right: 60px;
+  list-style: none;
+  color: white;
+}
+
+li {
+  float: right;
+  font-size: 14px;
+}
+
+nav a {
+  width: 100px;
+  display: block;
+  padding: 8px 8px;
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+  text-align: center;
+}
+
+a:hover {
+  color: white;
+}
+
+a.active-link {
+  border-bottom: 2px solid white;
+  color: rgb(2, 25, 54);
+}
+
+/* second navbar */
+
+.navbar2 {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  padding: 40px 0 60px 0;
+}
+
+.link2 {
+  width: 18%;
+  position: relative;
+  top: 50px;
+  padding: 8px 8px;
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(26, 123, 179);
+  border-radius: 5px;
+}
+
+.link2:hover {
+  background-color: rgb(10, 71, 107);
+}
+
+.navText2 {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar2 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar2 a:active {
+  color: white;
+  text-decoration: none;
+}
+
+/* Cards */
+
+.colleges {
+  width: 85%;
+  margin: auto;
+}
+
+.card {
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  border-radius: 5px;
+  /* padding: 5px; */
+  position: absolute;
+  text-align: center;
+}
+
+.card2 {
+  margin-left: 30%;
+}
+
+.card3 {
+  margin-left: 60%;
+}
+
+.card4 {
+  margin-top: 220px;
+}
+
+.card5 {
+  margin-top: 220px;
+  margin-left: 30%;
+}
+
+.card6 {
+  margin-top: 220px;
+  margin-left: 60%;
+}
+
+.college {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 19px;
+  color: rgb(61, 61, 61);
+}
+
+.country {
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+}
+
+.expenses {
+  color: rgb(61, 61, 61);
+}
+
+.deadline {
+  color: red;
+}
+
+.btn {
+  /* -webkit-border-radius: 5;
+  -moz-border-radius: 5; */
+  border: none;
+  border-top: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  width: 100%;
+  color: #3996d4;
+  font-size: 18px;
+  background: #f7f7f7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
